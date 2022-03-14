@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100&subset=cyrillic,latin);
+
+body{
+   background: #171E32;  
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #074581;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #074581;
+}
+
+a:hover {
+  color: #236EB7;
+  text-decoration: none;
+}
+
+ul{
+  color: #ffffff;
+  margin: 20px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+h1{
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+  font-size: 45px;
+  float: left;
+}
+
+h2{
+  margin: 0px 0px 0px 20px;
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 45px;
+  display: inline;
+  opacity: 0.2;
+  `float: right;
+}
+
+
+#mainBlock{
+  border-radius: 3px;
+  `box-shadow: 0px 2px 2px 1px rgba(50, 50, 50, 0.2);
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 300px;
+  width: 600px;
+  padding: 10px;
+  background: #212C4E;
+  position: relative;
+}
+
+#buttonBlock{
+  height: 35px;
+  width: 600px;
+  position: absolute;
+  bottom:10px; 
+}
+
+#mainText{
+    color: #FFFFFF;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+#CText{
+  color: #ffffff;
+padding: 0px;
+padding-left: 10px;
+opacity: 0.2;
+}
+
+
+
+#button{
+  color: #FFFFFF;
+  float: right;
+  display: block;
+  border-radius: 3px;
+  height: 35px;
+  width: 100px;
+  background: #058C05;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+  margin-left: 10px;
+}
+
+#button_2{
+  color: #FFFFFF;
+  float: right;
+  display: block;
+  border-radius: 3px;
+  height: 35px;
+  width: 150px;
+  background: #484848;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+#button:hover{
+   background: #30B530;
+   box-shadow: 0px 1px 3px 1px rgba(50, 150, 50, 0.5);
+}
+
+#button_2:hover{
+   background: #056705;
+}
